@@ -1,7 +1,7 @@
-define(function (require, exports, module) {
+define(['app'], function (app, require, exports, module) {
 
-alert(333);
+	window.app = app;
+	app.init();
 
 });
-
 

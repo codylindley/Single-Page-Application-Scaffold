@@ -6,7 +6,6 @@
 </head>
 <body>
 
-
 <script>
 (function(){
 
@@ -16,6 +15,10 @@
 	// head = document.head in sane browsers or this in IE8...
 	var head = document.head || document.getElementsByTagName('head')[0];
 	if(localStorage.isDevMode){
+
+		require = {
+			deps: ['app.start']
+		};
 
 		// development mode. load everything individually
 		script.setAttribute('data-main', 'require.config');
