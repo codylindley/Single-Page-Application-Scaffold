@@ -1,9 +1,9 @@
 define(function (require, exports, module) {
 
-	require('css!/css/home');
-
 	var Backbone = require('backbone');
-	var template = require('html!templates/home');
+
+	require('css!./home');
+	var template = require('html!./home');
 
 	return Backbone.View.extend({
 		el: 'body',

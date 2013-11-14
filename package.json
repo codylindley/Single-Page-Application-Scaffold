@@ -9,8 +9,7 @@
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-requirejs": "~0.4.1",
-    "handlebars": "~1.1.2",
-    "csso": "~1.3.9"
+    "handlebars": "~1.1.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

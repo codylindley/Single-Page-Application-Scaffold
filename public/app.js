@@ -1,7 +1,7 @@
 define(function (require, exports, module) {
 
 	var Backbone = require('backbone');
-	var Router = require('router');
+	var Router = require('app.router');
 
 	return {
 		router: new Router(),

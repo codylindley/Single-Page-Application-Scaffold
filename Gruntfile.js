@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 				options: {
 					separateCSS: true,
 					out: 'public/app.min.js',
-					mainConfigFile: 'public/require.config.js',
+					mainConfigFile: 'public/app.config.js',
 					name: 'almond',
 					findNestedDependencies: true,
 					optimize: 'none',
@@ -17,7 +17,7 @@ module.exports = function(grunt) {
 					paths: {
 						handlebars: 'bower_components/handlebars/handlebars.runtime.amd'
 					},
-					deps: ['app.start'],
+					include: ['app.start'],
 					insertRequire: ['app.start']
 				}
 			}
