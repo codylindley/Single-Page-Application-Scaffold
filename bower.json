@@ -10,6 +10,18 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
-  ]
+    "tests",
+    "public/bower_components"
+  ],
+  "homepage": "https://github.com/mundizzle/backbone-boilerplate",
+  "dependencies": {
+    "backbone": "https://raw.github.com/jashkenas/backbone/master/backbone.js",
+    "jquery": "~2.0.3",
+    "handlebars": "~1.1.2",
+    "almond": "~0.2.6",
+    "lodash": "~2.3.0",
+    "requirejs-text": "~2.0.10",
+    "requirejs-handlebars": "https://github.com/mundizzle/requirejs-handlebars/archive/master.zip",
+    "requirejs": "~2.1.9"
+  }
 }
