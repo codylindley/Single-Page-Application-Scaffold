@@ -1,0 +1,26 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.0",
+  "authors": [
+    "Mundi Morgado <mundi@tandemseven.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "https://raw.github.com/jashkenas/backbone/master/backbone.js",
+    "jquery": "~2.0.3",
+    "handlebars": "~1.1.2",
+    "lodash": "~2.3.0",
+    "requirejs-handlebars": "https://github.com/jfparadis/requirejs-handlebars/archive/master.zip",
+    "requirejs": "~2.1.9",
+    "requirejs-text": "~2.0.10",
+    "master.zip": "https://github.com/jfparadis/requirejs-handlebars/archive/master.zip",
+    "almond": "~0.2.6"
+  }
+}
