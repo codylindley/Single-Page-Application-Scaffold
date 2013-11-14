@@ -22,6 +22,7 @@
     "lodash": "~2.3.0",
     "requirejs-text": "~2.0.10",
     "requirejs-handlebars": "https://github.com/mundizzle/requirejs-handlebars/archive/master.zip",
-    "requirejs": "~2.1.9"
+    "requirejs": "~2.1.9",
+    "require-css": "~0.1.0"
   }
 }

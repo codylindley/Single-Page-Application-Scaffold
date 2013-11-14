@@ -7,5 +7,10 @@ requirejs.config({
 		handlebars: 'bower_components/handlebars/handlebars.amd',
 		html: 'bower_components/requirejs-handlebars/requirejs-handlebars',
 		almond: 'bower_components/almond/almond'
+	},
+	map: {
+		'*': {
+			'css': 'bower_components/require-css/css'
+		}
 	}
 });
