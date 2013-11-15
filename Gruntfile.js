@@ -17,6 +17,7 @@ module.exports = function(grunt) {
 					paths: {
 						handlebars: 'bower_components/handlebars/handlebars.runtime.amd'
 					},
+					exclude: ['bower_components/require-css/normalize'],
 					include: ['app.start'],
 					insertRequire: ['app.start']
 				}
