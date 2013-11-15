@@ -12,12 +12,12 @@ module.exports = function(grunt) {
 					mainConfigFile: 'public/app.config.js',
 					name: 'almond',
 					findNestedDependencies: true,
-					optimize: 'none',
-					stubModules: ['text', 'html'],
+					optimize: 'uglify2',
+					stubModules: ['text', 'html', 'css'],
 					paths: {
 						handlebars: 'bower_components/handlebars/handlebars.runtime.amd'
 					},
-					exclude: ['bower_components/require-css/normalize'],
+					exclude: ['normalize', 'css-builder'],
 					include: ['app.start'],
 					insertRequire: ['app.start']
 				}
