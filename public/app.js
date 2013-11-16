@@ -1,6 +1,8 @@
 define(function (require, exports, module) {
 
-	require('app.bootstrap');
+	require('bootstrapJs');
+//	require('css!bootstrapCss');
+	require('css!./app');
 
 	var Backbone = require('backbone');
 	var Router = require('app.router');
