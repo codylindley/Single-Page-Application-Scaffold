@@ -1,4 +1,4 @@
-## Single page application scaffold
+# Single page application scaffold
 
 A tasteful selection of libraries pre-configured and ready to go...
 
