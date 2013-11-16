@@ -1,0 +1,5 @@
+/*Overrides to default Bootstrap style go here*/
+
+.btn-primary {
+	background-color: orange;
+}
