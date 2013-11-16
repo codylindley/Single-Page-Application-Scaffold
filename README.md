@@ -1,6 +1,6 @@
 ## Single page application scaffold
 
-Pre-configured with the following libraries...
+A tasteful selection of libraries pre-configured and ready to go...
 
 - RequireJS
 - Backbone
