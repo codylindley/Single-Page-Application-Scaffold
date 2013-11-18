@@ -1,5 +1,6 @@
-define(['app'], function (app, require, exports, module) {
-
+define(function (require) {
+	
+	var app = require('app');
 	window.app = app;
 	app.init();
 
