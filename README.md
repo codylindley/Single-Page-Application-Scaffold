@@ -5,7 +5,7 @@ A tasteful selection of libraries pre-configured and ready to go...
 - [RequireJS](http://requirejs.org)
 - [Backbone](http://backbonejs.org)
 - [Handlebars](http://handlebarsjs.com)
-- [jQuery](http://jquery.com)
+- [jQuery](http://jquery.com) //Warning using 2.0.3 does not run in <ie8
 - [LoDash](http://lodash.com)
 - [Bootstrap](http://getbootstrap.com)
 
